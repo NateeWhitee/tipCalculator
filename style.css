@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    width: 100%;
+    padding: 15px 0 0 0;
+    margin: 0;
+    background-color: #333333;
+}
+
+article p, article label {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    font-size: 24px;
+}
+
+article input, article select {
+    width: 80%;
+    margin: 15px 0 15px 10%;
+    padding: 15px 0 15px 0;
+    border: 0;
+    font-size: 24px;
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+}
+
+article button {
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    cursor: pointer;
+    background-color: rgb(255, 131, 131);
+    color: #ffffff;
+}
+
+article button:hover {
+    background-color: red;
+    color: #000000;
+}

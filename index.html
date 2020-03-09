@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>Tip Calculator</title>
+    </head>
+    <body>
+        <article>
+            <p>What was the total of your bill?</p>
+            <input type="number" id="billTotal" placeholder="Bill Total">
+
+            <hr>
+
+            <p>How would you rate your service quality?</p>
+            <select id="serviceQuality">
+                <option value='0.05'>Very Poor (5%)</option>
+                <option value='0.1'>Poor (10%)</option>
+                <option value='0.15'>Okay (15%)</option>
+                <option value='0.2'>Pretty good (20%)</option>
+                <option value='0.25'>AMAZING! (25%)</option>
+            </select>
+
+            <hr>
+
+            <p>How many people will be dividing the expense?</p>
+            <input type="number" placeholder="number of people" id="peoplePaying">
+
+            <hr>
+
+            <button onclick="confirm()">Confirm all amounts are correct</button>
+        </article>
+        <script src="script.js"></script>
+    </body>
+</html>
